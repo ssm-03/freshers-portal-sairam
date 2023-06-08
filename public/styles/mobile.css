@@ -1,0 +1,112 @@
+@media only screen and ( max-width: 600px ) {
+    body{
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .landing-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rules-container{
+        min-height: unset;
+    }
+
+    .loading{
+        position: fixed;
+    }
+
+    .loading img{
+        width: 80%;
+    }
+
+    nav{
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .main-container{
+        grid-template-columns: none;
+        grid-template-rows: 0.7fr 2fr;
+    }
+
+    .schedule-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: start;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .schedule-icon, .schedule-title{
+        grid-column: span 1;
+    }
+
+    .schedule-icon{
+        width: 3rem;
+    }
+
+    .schedule-link{
+        grid-column: span 2;
+    }
+
+    .table {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 3%;
+      }
+      
+    .heading {
+        grid-column: 1 / span 2;
+        text-align: center;
+        font-weight: bold;
+        background-color: lightgray;
+        padding: 1%;
+    }
+    
+    .table-section{
+        display: grid;
+        grid-template-columns: none;
+        grid-column: 1 /span 2;
+        gap: 1rem
+    }
+    
+    .partition{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+      
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+      
+    .field {
+        font-weight: bold;
+    }
+      
+    .value {
+        font-style: italic;
+    }
+    
+    input{
+        padding: 0.5rem
+    }
+      
+    .heading2{
+        text-align: center;
+        font-weight: bold;
+        background-color: lightgray;
+        padding: 1.9%;
+    }
+    
+    .row1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+
+}

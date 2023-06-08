@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientation schedule | Sairam Fresher's portal</title>
+    <link rel="stylesheet" href="public/styles/styles.css">
+    <link rel="stylesheet" href="public/styles/utility.css">
+    <link rel="stylesheet" href="public/styles/mobile.css">
+</head>
+<body>
+    <div class="loading">
+        <img src="public/images/clg.png" alt="Sairam Institutions">
+        <span class="loader"></span>
+    </div>
+    
+    <nav>
+        <img src="public/images/clg.png" alt="Sairam Institutions" class="nav-logo">
+        <h1 class="nav-heading ff-inter ">Sairam Freshers Portal [2023 - 2024]</h1>
+        <button class="user-btn ff-inter"> <img src="public/images/user-128-32.png" alt="icon user"> 
+            <h3 class="user-btn-name">Welcome, USER</h3> <img src="public/images/chevron-down.svg" class="icon chevron-down">
+            <div class="user-menu">
+                <a href="/profile" class="user-menu-link">Profile</a>
+                <a href="#" class="user-menu-link sign-out">Sign out</a>
+            </div>
+        </button>
+    </nav>
+
+    <main class="main-container">
+        <div class="menu">
+            <a href="/portal"><img src="public/images/home.png" class="icon home" alt="Home:"><img src="public/images/chevron-down.svg" class="icon chevron-right"></a>
+            <a href="/guide" class="menu-link ff-inter fs-2s">Fresher's guide</a>
+            <a href="/orientation" class="menu-link ff-inter fs-2s menu-link-active">Orientation schedule →</a>
+            <a href="/admission" class="menu-link ff-inter fs-2s">Provisional Admission Letter</a>
+        </div>
+
+        <div class="content">
+            <h1>Hello, USER!</h1>
+            <p class="fs-2s">Today's chedule:</p>
+            <div class="schedule-wrapper">
+                <span class="loader"></span>
+                
+                <!-- <div class="schedule-item">
+                    <img src="public/images/conference.png" alt="Online Meeting" class="schedule-icon">
+                    <h3 class="schedule-title">Meeting with Sachin</h3>
+                    <a href="https://meet.google.com/fwz-xqzn-tjw/" class="schedule-link ff-inter">https://meet.google.com/fwz-xqzn-tjw/</a>
+                </div> -->
+
+            </div>
+        </div>
+    </main>
+
+    <script src="/public/js/orientation.js" type="module"></script>
+</body>
+</html>

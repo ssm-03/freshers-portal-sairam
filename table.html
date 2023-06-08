@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student - Profile | Sairam Fresher's portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <div class="loading">
+        <img src="public/images/clg.png" alt="Sairam Institutions">
+        <span class="loader"></span>
+    </div>
+    
+    <nav>
+        <img src="public/images/clg.png" alt="Sairam Institutions" class="nav-logo">
+        <h1 class="nav-heading ff-inter ">Sairam Freshers Portal [2023 - 2024]</h1>
+        <button class="user-btn ff-inter"> <img src="public/images/user-128-32.png" alt="icon user"> 
+            <h3 class="user-btn-name">Welcome, USER</h3> <img src="public/images/chevron-down.svg" class="icon chevron-down">
+            <div class="user-menu">
+                <a href="#" class="user-menu-link">Profile</a>
+                <a href="#" class="user-menu-link sign-out">Sign out</a>
+            </div>
+        </button>
+    </nav>
+
+    <main class="main-container">
+        <div class="menu">
+            <a href="/portal"><img src="public/images/home.png" class="icon home" alt="Home:"><img src="public/images/chevron-down.svg" class="icon chevron-right"></a>
+            <a href="/guide" class="menu-link ff-inter fs-2s">Fresher's guide</a>
+            <a href="/orientation" class="menu-link ff-inter fs-2s menu-link-active">Orientation schedule →</a>
+            <a href="/admission" class="menu-link ff-inter fs-2s">Provisional Admission Letter</a>
+        </div>
+
+        <div class="content">
+            <h1>Hello, USER!</h1>
+            <p class="fs-2s">Your Profile</p>
+            <div class="schedule-wrapper">
+                <div class="table">
+                    <div class="heading" colspan="2">PERSONAL DETAILS</div>
+                    <div class="row">
+                      <div class="field">Name</div>
+                      <div class="value"><input type="text" id="inputdata" placeholder="Enter your Name"></div>
+                    </div>
+                    <div class="row">
+                      <div class="field">Date of Birth</div>
+                      <div class="value"><input type="date" id="inputdata" placeholder="Enter your Date of Birth"></div>
+                    </div>
+                    <div class="row">
+                      <div class="field">Mother Tongue</div>
+                      <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mother Tongue"></div>
+                    </div>
+                    <div class="row">
+                      <div class="field">Blood Group</div>
+                      <div class="value"><input type="text" id="inputdata" placeholder="Enter your Blood Group"></div>
+                    </div>
+                    <div class="row">
+                      <div class="field">Nationality</div>
+                      <div class="value"><input type="text" id="inputdata" placeholder="Enter your Nationality"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Religion</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Religion"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Community</div>
+                        <div class="value"><input type="text" id="inputdata"  placeholder="Enter your Community"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Hostel Required?</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Hostel Required? Yes / No"></div>
+                    </div>
+                    <div class="heading2" colspan="2">CURRENT RESIDENTIAL ADDRESS</div>
+                    <div class="heading2" colspan="2">PERMANENT ADDRESS</div>
+                    <div class="row">
+                        <div class="field">Door No. / Plot No. /Street Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Door No./ Plot No./ Street Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Door No. / Plot No. / Street Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Door No./ Plot No./ Street Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Area / Mandal</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Area / Mandal"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Area / Mandal</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Area / Mandal"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">City Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your City Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">City Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your City Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Pincode / Zipcode</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Pincode / Zipcode"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Pincode / Zipcode</div>
+                        <div class="value"><input type="text"  id="inputdata" inputmode="numeric" placeholder="Enter your Pincode / Zipcode"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">State</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your State"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">State</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your State"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Country</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Country"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Country</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Country"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Phone No.(LandLine)</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Phone No.(Landline)"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Phone No.(LandLine)</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Phone No.(Landline)"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Mobile Number</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Mobile Number"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Mobile Number</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric"  placeholder="Enter your Mobile Number"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Email ID</div>
+                        <div class="value"><input type="email"id="inputdata"  placeholder="Enter your Email Id"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Email ID</div>
+                        <div class="value"><input type="email" id="inputdata" placeholder="Enter your Email ID"></div>
+                    </div>
+                    <div class="heading" colspan="2">EDUCATIONAL DETAILS</div>
+                    <div class="row1">
+                        <div class="field">Applied Degree</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Applied Degree"></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="field">Last Qualifying</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Last Qualifying"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Branch</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Branch"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">School name/ Institution name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your School Name / Institution Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Board /University name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Board / University Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Medium</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Medium"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Reg.No/Roll.No</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Reg.No / Roll.No"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Class Obtained</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Class Obtained"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Month & Year of Passing</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Month & Year Of Passing"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Break of Study</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Break Of Study"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Reason for Break of Study</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Reason for Break of Study"></div>
+                    </div>
+                    <div class="heading" colspan="2">SCHOOL / COLLEGE ADDRESS</div>
+                    <div class="row">
+                        <div class="field">Area Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Area Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">City Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your City Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">State</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your State"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Pincode</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Pincode"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Phone no</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Phone No."></div>
+                    </div>
+                    <div class="heading" colspan="2">FAMILY DETAILS</div>
+                    <div class="row">
+                        <div class="field">No.of Brothers</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your No. of Brothers"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">No.of Sisters</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your No. of Sisters"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Brother / Sister studying in Sairam Institutions</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Brother / Sister studying in Sairam Institutions"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Studied Details</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Studied Details"></div>
+                    </div>
+                    <div class="heading2" colspan="2">FATHER DETAILS</div>
+                    <div class="heading2" colspan="2">MOTHER DETAILS</div>
+                    <div class="row">
+                        <div class="field">Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Father's Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mother's Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Qualification</div>
+                        <div class="value"><input type="text" id="inputdata"  placeholder="Enter your Father's Qualification"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Qualification</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mother's Qualification"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Occupation</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Father's Occupation"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Occupation</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mother's Occupation"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Organization</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Father's Organization"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Organization</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mohter's Organization"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Designation</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Father's Designation"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Designation</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mother's Designation"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">EMP.ID(If employed in SEC/SIT)</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Father's EMP.ID (If employed in SEC/SIT)"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">EMP.ID(If employed in SEC/SIT)</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mohter's EMP.ID  (If employed in SEC/SIT)"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Mobile No</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Father's Mobile No."></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Mobile No</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Motjer's Mobile No."></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Email ID</div>
+                        <div class="value"><input type="email" id="inputdata" placeholder="Enter your Father's Email ID"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Email ID</div>
+                        <div class="value"><input type="email" id="inputdata" placeholder="Enter your Mother's Email ID"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Annual Income</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Father's Annual Income"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Annual Income</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Mohter's Annual Income"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Area Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Father's Area Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Area Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mother's Area Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">City Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Father's City Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">City Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mother's City Name"></div>
+                    </div>  
+                    <div class="row">
+                        <div class="field">State Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Father's State Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">State Name</div>
+                        <div class="value"><input type="text" id="inputdata" placeholder="Enter your Mother's State Name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Pincode</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Father's Pincode"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Pincode</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Mother's Pincode"></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Phone No</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Father's Phone No."></div>
+                    </div>
+                    <div class="row">
+                        <div class="field">Phone No</div>
+                        <div class="value"><input type="text" id="inputdata" inputmode="numeric" placeholder="Enter your Mother's Phone No."></div>
+                    </div>
+                  </div>
+                  <p>Place: <input type="text" id="inputdata" id="inputdata" placeholder="Enter your Place"></p>
+                  <p>Date: <input type="date" id="inputdata" id="inputdata" placeholder="Enter your Date"></p>
+                  <div class="declaration fs-2s">
+                        <p>DECLARATION</p>
+                        <h5>I hereby declare that all the information given above are true to the best of my knowledge</h5>
+                  </div>
+                  <div class="signature fs-2s">
+                    <h3>(Signature of the Parent)</h3> 
+                    <h3>(Signature of the Candidate)</h3>
+                  </div>
+            </div>
+            <button type="button" onclick="downloadTable()" class="button">Download as PDF</button>
+        </div>
+    </main>
+
+    <script src="orientation.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.10.0/jspdf.umd.min.js"></script>
+  <script>
+    function downloadTable() {
+      const table = document.getElementById('myTable');
+      const doc = new jsPDF();
+      const tableWidth = 180; // Width of the table in PDF
+      const tableHeight = 10; // Height of each row in the table
+
+      // Iterate through each row of the table
+      for (let i = 0; i < table.rows.length; i++) {
+        const rowData = [];
+
+        // Iterate through each cell of the row
+        for (let j = 0; j < table.rows[i].cells.length; j++) {
+          rowData.push(table.rows[i].cells[j].innerText);
+        }
+
+        // Add the row to the PDF
+        doc.text(10, 10 + i * tableHeight, rowData.join(' | '));
+      }
+
+      // Save the PDF file
+      doc.save('table_data.pdf');
+    }
+  </script>
+</body>
+</html>

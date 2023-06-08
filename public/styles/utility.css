@@ -1,0 +1,64 @@
+
+.fs-3l{
+    font-size: 3rem;
+}
+
+.fs-2l{
+    font-size: 2.5rem;
+}
+
+.fs-l{
+    font-size: 2rem;
+}
+
+.fs-2m{
+    font-size: 1.7rem;
+}
+
+.fs-m{
+    font-size: 1.5rem;
+}
+
+.fs-2s{
+    font-size: 1.2rem;
+}
+
+.fs-s{
+    font-size: 1rem;
+}
+
+.ff-inter{
+    font-family: var(--ff-inter);
+}
+
+.fw-100{
+    font-weight: 100;
+}
+
+.fw-200{
+    font-weight: 200;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.fw-400{
+    font-weight: 400;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+.br-m{
+    border-radius: 20px;
+}

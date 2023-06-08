@@ -1,2 +1,2 @@
-# freshers-portal-sairam
-Freshers portal for Sairam Institutions
+# sairam-freshers-portal
+Fresher's portal website for sairamgroup.in
